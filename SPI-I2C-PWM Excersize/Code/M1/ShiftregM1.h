@@ -42,7 +42,7 @@ class ShiftregM1{
 	void forwards(byte input);
 	private:
 	void clockOnce();
-	void registerShiftThenenable(byte input);
+	void registerShiftThenenable(byte input, int wamjam);
 };
 
 #endif

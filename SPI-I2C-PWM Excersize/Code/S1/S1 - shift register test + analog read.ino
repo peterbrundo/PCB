@@ -2,13 +2,12 @@
 ShiftregS1 dorito;
 
 void setup(){
-  
+  pinMode(A3,INPUT);
   }
 void loop(){
   dorito.clearBoard();
-  dorito.forwards(analogRead(A3));
-  delay(1000); 
-  
+  dorito.forwards(map(analogRead(A3), 0, 1023, 0, 255));
+  delay(500);
  }
 
  
