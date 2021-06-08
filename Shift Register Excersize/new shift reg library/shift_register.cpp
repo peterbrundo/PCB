@@ -2,6 +2,13 @@
 #include "Arduino.h"
 
 
+//improvements / thoughts
+//RCLK doesn't need to be constatntly toggled, only at the last
+//there must be a clever way to do this without repeated if statements here (switch case or looped conidtional
+//include a feature to toggle which bit gets sent first (bit0 vs bit7) *overkill
+
+
+
 shift_register::shift_register(){
 	  DDRD |= (1 << SRCLR) | (1 << SRCLK) | (1 << RCLK) | (1 << NOE) | (1<<SER);
 	  PORTD |= (1 << SRCLR);
