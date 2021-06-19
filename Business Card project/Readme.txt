@@ -1,5 +1,5 @@
 TO DO:
-Fix typos, yikes!
+Learn how to spell business
 Upload code and test
 Finish soldering 0201 (0603) capacitors
 
