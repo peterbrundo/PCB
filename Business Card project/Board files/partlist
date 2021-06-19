@@ -1,0 +1,41 @@
+Partlist
+
+Exported from Brundage Business Card - REV 1.0.brd at 6/19/2021 5:48 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part           Value          Package            Library                Position (mil)        Orientation
+
+C2             22p            GRM0225C1E220GA02L Brundage Buisness Card (2770.90551 1235.47244) R315
+C3             22p            GRM0225C1E220GA02L Brundage Buisness Card (2353.46457 1629.80315) R225
+C6             100n           GMK063BJ104KP-F    Brundage Buisness Card (2082.75591 900.11811) R135
+C10            100n           GMK063BJ104KP-F    Brundage Buisness Card (2718.89764 1137.79528) R135
+C12            100n           GMK063BJ104KP-F    Brundage Buisness Card (2165.35433 826.77165) R315
+D1             1N4148         1N4148             Brundage Buisness Card (2773.22958 1627.80487) R135
+D2             1N4148         1N4148             Brundage Buisness Card (2406.68492 1802.81496) R315
+JP1                           2X03               pinhead                (3050 450)            R45
+PCB-USB-A-PLUG                USB-SERIES-A-PLUG  Brundage Buisness Card (3172.89358 1338.82726) R135
+R3             1k5            CRCW06031K50FKEAC  Brundage Buisness Card (2818.33797 1496.06299) R225
+R4             68R            RCS060368R0FKEA    Brundage Buisness Card (2913.38583 1456.69291) R225
+R5             68R            RCS060368R0FKEA    Brundage Buisness Card (3003.65711 1389.48401) R225
+SW#01                         PTS647SM38SMTR2LFS Brundage Buisness Card (275.59055 1850.3937) R0
+SW#02                         PTS647SM38SMTR2LFS Brundage Buisness Card (866.14173 1850.3937) R0
+SW#03                         PTS647SM38SMTR2LFS Brundage Buisness Card (1456.69291 1850.3937) R0
+SW#04                         PTS647SM38SMTR2LFS Brundage Buisness Card (275.59055 1535.43307) R0
+SW#05                         PTS647SM38SMTR2LFS Brundage Buisness Card (866.14173 1535.43307) R0
+SW#06                         PTS647SM38SMTR2LFS Brundage Buisness Card (1456.69291 1535.43307) R0
+SW#07                         PTS647SM38SMTR2LFS Brundage Buisness Card (275.59055 1220.47244) R0
+SW#08                         PTS647SM38SMTR2LFS Brundage Buisness Card (866.14173 1220.47244) R0
+SW#09                         PTS647SM38SMTR2LFS Brundage Buisness Card (1456.69291 1220.47244) R0
+SW#10                         PTS647SM38SMTR2LFS Brundage Buisness Card (275.59055 905.51181) R0
+SW#11                         PTS647SM38SMTR2LFS Brundage Buisness Card (866.14173 905.51181) R0
+SW#12                         PTS647SM38SMTR2LFS Brundage Buisness Card (1456.69291 905.51181) R0
+SW#13                         PTS647SM38SMTR2LFS Brundage Buisness Card (1456.69291 590.55118) R0
+SW#14                         PTS647SM38SMTR2LFS Brundage Buisness Card (2047.24409 590.55118) R0
+SW#15                         PTS647SM38SMTR2LFS Brundage Buisness Card (1456.69291 275.59055) R0
+SW#16                         PTS647SM38SMTR2LFS Brundage Buisness Card (2047.24409 275.59055) R0
+SW#17                         PTS647SM38SMTR2LFS Brundage Buisness Card (2637.79528 275.59055) R0
+U$4            ARDUINO-DIP28  DIL28-3            Brundage Buisness Card (2403.24508 1024.17876) R135
+Y3             16MHz          ABL-8.000MHZ-B2    Brundage Buisness Card (2506.18529 1409.16892) R315
