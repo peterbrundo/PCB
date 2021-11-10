@@ -9,15 +9,14 @@ bitbang_shift_register::bitbang_shift_register(){
 	//RCLK 2
 	//SRCLK 3
 	//SRCLR 4
-	  DDRD |= (1 << SRCLR) | (1 << SRCLK) | (1 << RCLK) | (1 << NOE) | (1 << SER);
+	DDRD |= (1 << SRCLR) | (1 << SRCLK) | (1 << RCLK) | (1 << NOE) | (1 << SER);
 	  
-	  //clear shift register clock and storage register clock
-	  PORTD &=  ~(1 << SRCLK);
-	  PORTD &=  ~(1 << RCLK);
-	  //disable output
-	  PORTD &=  ~(1 << NOE);
-
-	}
+	//clear shift register clock and storage register clock
+	PORTD &=  ~(1 << SRCLK);
+	PORTD &=  ~(1 << RCLK);
+	//disable output
+	PORTD &=  ~(1 << NOE);
+}
 //shifts 8 bits onto the shift register, most significant byte first	
 void bitbang_shift_register::shiftbyte(byte setByte){
 	//clear the shift register, clear clocks, clear serial input
@@ -72,8 +71,8 @@ void bitbang_shift_register::shiftbyte(byte setByte){
 
 	PORTD |= (1<<SRCLK);
 	PORTD &= ~(1<<SRCLK);
-	//end
 
+	//the shift register always is one clock pulse ahead of the storage register
 	PORTD |=(1<<RCLK);
 	PORTD &= ~(1<<RCLK);
 
@@ -145,7 +144,7 @@ void bitbang_shift_register::shiftbyte_lsb(byte setByte){
 
 //clears the board
 void bitbang_shift_register::clearboard(){
-PORTD &= ~(1<<SRCLR);
+	PORTD &= ~(1<<SRCLR);
 }
 	
 	
