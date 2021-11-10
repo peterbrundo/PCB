@@ -11,10 +11,10 @@ Shiftreg76 shiftRegister;
 #define SCL 5
 
 //CS PINS
-#define M_CS1 2
-#define M_CS2 1
-#define M_CS3 0
-#define S_CS 2
+#define P_CS1 2
+#define P_CS2 1
+#define P_CS3 0
+#define C_CS 2
 
 //SPI PINS
 #define MISO_PIN 4

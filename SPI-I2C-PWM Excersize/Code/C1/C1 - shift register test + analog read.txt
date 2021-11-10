@@ -1,5 +1,5 @@
-#include <ShiftregS1.h>
-ShiftregS1 dorito;
+#include <ShiftregC1.h>
+ShiftregC1 dorito;
 
 void setup(){
   
