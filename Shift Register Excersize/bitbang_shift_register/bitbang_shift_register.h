@@ -1,5 +1,5 @@
-#ifndef shift_register_h
-#define shift_register_h
+#ifndef bitbang_shift_register_h
+#define bitbang_shift_register_h
 
 #include "Arduino.h"
 
@@ -19,12 +19,12 @@
 #define mask_bit_7 0x80
 
 
-class shift_register{
+class bitbang_shift_register{
 	public:
-	shift_register();
-	void shiftbite(byte setByte);
+	bitbang_shift_register();
+	void shiftbyte(byte setByte);
 	void clearboard();
-	void shiftbite_lsb(byte setByte);
+	void shiftbyte_lsb(byte setByte);
 	
 	private:
 };
