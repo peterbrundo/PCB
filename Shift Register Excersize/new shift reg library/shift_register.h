@@ -21,16 +21,14 @@
 
 class shift_register{
 	public:
+	shift_register();
 	void shiftbite(byte setBit);
 	void clearboard();
-	
 	
 	private:
 	void clockOnce();
 	void clockninsertx(int n, int x);
 	void clockntimes(int n);
-	check(byte input);
-	
 };
 
 #endif
