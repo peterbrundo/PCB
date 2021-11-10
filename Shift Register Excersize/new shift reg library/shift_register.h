@@ -22,13 +22,11 @@
 class shift_register{
 	public:
 	shift_register();
-	void shiftbite(byte setBit);
+	void shiftbite(byte setByte);
 	void clearboard();
+	void shiftbite_lsb(byte setByte);
 	
 	private:
-	void clockOnce();
-	void clockninsertx(int n, int x);
-	void clockntimes(int n);
 };
 
 #endif
