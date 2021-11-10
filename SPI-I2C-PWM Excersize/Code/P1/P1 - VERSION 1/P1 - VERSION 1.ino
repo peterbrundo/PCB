@@ -1,5 +1,5 @@
 
-#include <ShiftregS1.h>
+#include <ShiftregC1.h>
 Shiftreg76 shiftRegister;
 //LED PINS
 #define SPI_LED 5
@@ -11,10 +11,10 @@ Shiftreg76 shiftRegister;
 #define SCL 5
 
 //CS PINS
-#define M_CS1 2
-#define M_CS2 1
-#define M_CS3 0
-#define S_CS 2
+#define P_CS1 2
+#define P_CS2 1
+#define P_CS3 0
+#define C_CS 2
 
 //SPI PINS
 #define MOSI_PIN 3
@@ -33,7 +33,7 @@ void setup(){
 			//no LEDS
 
 	//Initialize SPI
-		M_SPI_INIT();
+		P_SPI_INIT();
 	//CLEAR SHIFT REGISTER
 		shiftRegister.clearBoard();
 	//inITIALIZE A2D
@@ -44,7 +44,7 @@ void main(){
 
 	for (i = 0;i<255;i++){
 		shiftRegister.forwards(i);
-		M_spi_transmit(i);
+		P_SPI_transmit(i);
 		delay(1000);
 
 	}
@@ -57,19 +57,19 @@ void main(){
 			high = ADCH;
 			reading = int((high << 8) | low); //from arduino wiring_analog.c library
 	if (reading > 200){
-		M_spi_transmit(255);
+		P_SPI_transmit(255);
 	}
 	*/
 	
 }
-void M_SPI_INIT(){
+void P_SPI_INIT(){
 	
 	/* Set MOSI and SCK output, all others input */
 	PORTB = (1<<MOSI_PIN)|(1<<SCK_PIN);
 	/* Enable SPI, Master, set clock rate fck/16 */
 	SPCR = (1<<SPE)|(1<<MSTR)|(1<<SPR0);
 }
-byte M_spi_transmit(){
+byte P_SPI_transmit(){
 		/* Start transmission */
 	SPDR = cData;
 	/* Wait for transmission complete */

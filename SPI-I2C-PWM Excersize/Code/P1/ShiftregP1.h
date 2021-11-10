@@ -11,8 +11,8 @@ shift it into a register
 */
 
 
-#ifndef ShiftregM1_h
-#define ShiftregM1_h
+#ifndef ShiftregP1_h
+#define ShiftregP1_h
 
 #include "Arduino.h"
 
@@ -32,9 +32,9 @@ definitions from first shift register board I made
 #define SRCLK 4
 #define SRCLR 7
 
-class ShiftregM1{
+class ShiftregP1{
 	public:
-	ShiftregM1();
+	ShiftregP1();
 	void hello();
 	void clearboardpin();
 	void clearBoard();

@@ -1,5 +1,5 @@
 
-#include <ShiftregS1.h>
+#include <ShiftregC1.h>
 Shiftreg76 shiftRegister;
 //LED PINS
 #define SPI_LED 5

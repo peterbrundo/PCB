@@ -1,5 +1,5 @@
-#include <ShiftregM1.h>
-ShiftregM1 dorito;
+#include <ShiftregP1.h>
+ShiftregP1 dorito;
 
 void setup(){
   pinMode(A3,INPUT);

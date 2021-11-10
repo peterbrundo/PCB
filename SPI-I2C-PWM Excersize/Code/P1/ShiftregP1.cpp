@@ -1,16 +1,16 @@
-#include "ShiftregM1.h"
+#include "ShiftregP1.h"
 #include "Arduino.h"
 
 //todo: 
 //replace PORTDx with defintion (DONE)
 //replace bitRead with mask -going to put this off for a bit (pun intended looool)
 
-ShiftregM1::ShiftregM1(){
+ShiftregP1::ShiftregP1(){
 	DDRD |= (1 << SRCLR) | (1 << SRCLK) | (1 << RCLK) | (1 << NOE) | (1 << SER);
 	PORTD |= (1 << SRCLR) | (0 << SRCLK) | (0 << RCLK) | (0 << NOE);
 	}
 	
-void ShiftregM1::registerShiftThenenable(byte input, int wamjam){
+void ShiftregP1::registerShiftThenenable(byte input, int wamjam){
 clearBoard();
 //disable output
 PORTD |= (1<NOE);
@@ -28,7 +28,7 @@ delay(wamjam);
 //enable output
 PORTD &= ~(1<NOE);
 } 
-void ShiftregM1::backwards(byte input){
+void ShiftregP1::backwards(byte input){
 clearBoard();
  
   int index = 3;
@@ -78,7 +78,7 @@ clearBoard();
 
 }
 
-void ShiftregM1::forwards(byte input){
+void ShiftregP1::forwards(byte input){
 	clearBoard();
   int index = 3;byte previousVal = 0x00;
   for (int i = 0;i<8;i++){
@@ -107,12 +107,12 @@ void ShiftregM1::forwards(byte input){
   //while (true);
 }
 
-void ShiftregM1::clockOnce(){
+void ShiftregP1::clockOnce(){
 	
   PORTD ^= (1<<SRCLK) | (1<<RCLK);
   PORTD ^= (1<<SRCLK) | (1<<RCLK);
 }
-void ShiftregM1::clearBoard(){
+void ShiftregP1::clearBoard(){
 byte previousValue = PORTD;
 
 
@@ -140,7 +140,7 @@ byte previousValue = PORTD;
 }
 
 
-void ShiftregM1::hello(){
+void ShiftregP1::hello(){
 	DDRB |= (1 << DDB5) | (1 << DDB4) | (1 << DDB3) | (1 << DDB2) | (1 << DDB1) | (1 << DDB0);
 
 	delay(100);
