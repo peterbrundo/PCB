@@ -1,0 +1,17 @@
+REGISTER_STATE1		REGISTER_STATE2		STATUS
+1			1			KEYA Pressed
+0			1			KEYA UnPressed
+2			2			KEYB Pressed
+0			2			KEYB UnPressed
+4			4			KEYC Pressed
+0			4			KEYC UnPressed
+8			8			KEYD Pressed
+0			8			KEYD UnPressed
+10			10			KEYE Pressed
+0			10			KEYE UnPressed
+20			20			KEYF Pressed
+0			20			KEYF UnPressed
+40			40			KEYG Pressed
+0			40			KEYG UnPressed
+80			80			KEYH Pressed
+0			80			KEYH UnPressed
