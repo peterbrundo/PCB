@@ -4,7 +4,7 @@ Project title:
 Initial Goals: 
 	Prototype out development board for SPI-I2C protocols across multiple MCUs including PWM interupts delivering 1 byte messages derived from input analog potentiometer
 	Layout a decent sized board for Soldering practice
-	
+	Test out SPI/i2c protocols
 	
 Concept
 	User selects 
