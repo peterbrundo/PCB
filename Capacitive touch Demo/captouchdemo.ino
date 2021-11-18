@@ -21,7 +21,7 @@ byte report[2] = {};
 void setup()
 {
   Wire.begin();
-  //Wire.setClock(200000); // set I2C 'full-speed'
+  //Serial.begin(115200);//  if using python script
   Serial.begin(9600);
   pinMode(A7, INPUT_PULLUP);
   //scanner();
@@ -116,8 +116,8 @@ void loop() {
           break;
         }
       }
-      
       Serial.println(String(report[0],HEX) + String("\t\t\t") + String(report[1],HEX) + String("\t\t\t") +result);
+      //Serial.print(int(report[0])); //use this ugly line if using the python script, figure out how to make this better later!
   }
 
 
