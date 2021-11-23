@@ -95,7 +95,7 @@ void loop() {
       parent_send_spi(0xAA);
       digitalWrite(CS1, HIGH);
       
-      parent.parent_shiftbyte(3);
+      parent.parent_shiftbyte(1);
       delay(1000);
       
       digitalWrite(CS1, LOW);
@@ -109,7 +109,7 @@ void loop() {
       parent_send_spi(0xAA);
       digitalWrite(CS2, HIGH);
       
-      parent.parent_shiftbyte(3);
+      parent.parent_shiftbyte(2);
       delay(1000);
       
       digitalWrite(CS2, LOW);
@@ -149,3 +149,9 @@ SPDR = char(info);
 while(!(SPSR & (1<<SPIF)))
 ;
 }
+
+
+
+
+
+
