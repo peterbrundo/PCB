@@ -1,33 +1,34 @@
-#SPI-I2C-PWM EXCERCISE
+# SPI-I2C-PWM EXCERCISE
 	
-##Initial Goals: 
+## Initial Motivation and goals: 
 - Development board for SPI-I2C protocols using multiple MCUs
-- SMD soldering practice (SOIC and 0805,0603)
 - R2R ladder approach for analog dipswitches
-- Test out SPI/i2c protocols, PWM clock generation
+- SMD soldering practice (SOIC and 0805,0603)
 - PDIP packages with thru hole sockets -swapable parts
+- Include right angle receptacles to reuse "Shift Register Excersize" boards
+- - Reduce, Reuse, Recycle!
 	
-##Basic Concept:
-- Parent MCU send 8 bit messages to child MCUs
-- User configruable paramters 
+## Basic Concept:
+- Parent MCU sends 8 bit messages to child MCUs
+- 8bit led shift regsiter displays message (parent and child)
+- - User configruable paramters 
 - - Communication protocol-SPI-i2c-PWM
 - - Child rx
-- - 8bit message 
-- Additional features (selectable by r2r ladder)
+- - 8bit messages
 - - 10bit adc potentiometer
-- - additional commands - tx/rx
-- 8bit led shift regsiter displays (parent and child bit bang)
-##Resources: 
+- - additional display visualazations (in development)
+
+## Resources: 
 - Arudino i2c library 
 - myshift register bit banging library
 
-##Reach Goals: 
+## Reach Goals: 
 - Develop custom firmware to support I2C handles (somewhat out of scope)
 - i2c bus arbitration (message priority)
-- SPI child / parent swap
-- Add UART(? - annoying reworks or new board)
+- child / parent swap (SPI)
+- Add UART(? - annoying reworks)
 	
-##Thoughts/reflections:
+## Thoughts/reflections:
 - Should've included pinouts for UART communication
 - Pinouts for a USB COM port, JTAG or ICSP (duh!)
 - Reworks are to make it work! Not to make it pretty!
