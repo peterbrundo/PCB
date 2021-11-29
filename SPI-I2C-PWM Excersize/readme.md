@@ -6,7 +6,7 @@
 - SMD soldering practice (SOIC and 0805,0603)
 - PDIP packages with thru hole sockets -swapable parts
 - Include right angle receptacles to reuse "Shift Register Excersize" boards
-- - Reduce, Reuse, Recycle!
+	- Reduce, Reuse, Recycle!
 	
 ## Basic Concept:
 - Parent MCU sends 8 bit messages to child MCUs
