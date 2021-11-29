@@ -5,7 +5,7 @@
   - Use NPN transistor
   - Use optoisolator
   - Voltage divider
-- different voltages +3.3V , +5V
+- Different voltages +3.3V , +5V
 - Surface mount soldering
   - 0805 Led & Resistor circuits
 - Soldering practice
