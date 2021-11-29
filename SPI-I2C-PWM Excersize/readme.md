@@ -1,4 +1,4 @@
-#"SPI-I2C-PWM EXCERCISE"
+#SPI-I2C-PWM EXCERCISE
 	
 ##Initial Goals: 
 	Development board for SPI-I2C protocols using multiple MCUs
