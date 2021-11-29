@@ -43,3 +43,5 @@ I then created my own eagle components for the rest of the parts from the V-USB 
 # Thoughts and reflections
 
 This was a fun project that forced me to learn Atmel Studio 7 environments.  There were a few work arounds including
+
+*readme update 11/29/2021*
