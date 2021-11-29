@@ -1,41 +1,37 @@
 Project title: 
 	"SPI-I2C-PWM EXCERCISE"
-
-Initial Goals: 
-	Prototype out development board for SPI-I2C protocols across multiple MCUs including PWM interupts delivering 1 byte messages derived from input analog potentiometer
-	Layout a decent sized board for Soldering practice
-	Test out SPI/i2c protocols
 	
-Concept
-	User selects 
-		SPI, I2C, or PWM
-		8 bit input using potentiometer
-		reciver chip
-	Users presses a transmit button
-	Sender MCU
-		Outputs 8 bit message to shift register LED array
-		Sends 8 bit message
-	Reciever MCU 
-		indicates the protocol using an LED
-		outputs 8 bit input to shift regsiter LED array
-
+Initial Goals: 
+	Development board for SPI-I2C protocols using multiple MCUs
+	SMD soldering practice (SOIC and 0805,0603)
+	R2R ladder approach for analog dipswitches
+	Test out SPI/i2c protocols, PWM clock generation
+	PDIP packages with thru hole sockets -swapable parts
+	
+Basic Concept:
+	Parent MCU send 8 bit messages to child MCUs
+	User configruable paramters 
+		communication protocol-SPI-i2c-PWM
+		child rx
+		8bit message 
+		Additional features 
+			10bit adc potentiometer
+			additional commands - tx/rx
+	8bit led shift regsiter displays (parent and child bit bang)
+	Additional features selected by 10bit R2r ladder
 Resources: 
 	Arudino i2c library 
 	myshift register bit banging library
 
 Reach Goals: 
-	Develop custom firmware to support I2C handles
-	Clean up board past prototype
-		SMD parts
-		Fix reworks
-Status: 
-	SPI communication works
+	Develop custom firmware to support I2C handles (somewhat out of scope)
+	i2c bus arbitration (message priority)
+	SPI child / parent swap
+	Add UART(? - annoying reworks or new board)
 	
-Next Step:
-	I2C implementation
-
-
 Thoughts/reflections:
 	-Should've included pinouts for UART communication
-	-Pinouts for a USB COM port, JTAG or ICSP would've made programing much faster
-	-Don't trust random schematics for pinouts, consult the datasheet (rework to cut traces / add cap from AREF to GND)
+	-Pinouts for a USB COM port, JTAG or ICSP (duh!)
+	-Reworks are to make it work! Not to make it pretty!
+
+*readme update 11-29-2021
