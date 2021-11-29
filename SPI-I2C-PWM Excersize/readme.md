@@ -20,7 +20,7 @@
 
 ## Resources: 
 - Arudino i2c library 
-- "bitbang_shift_register" (See [PCB/Shift Register Excersize/](https://github.com/peterbrundo/PCB/tree/master/Shift%20Register%20Excersize)
+- "bitbang_shift_register" See [PCB/Shift Register Excersize/](https://github.com/peterbrundo/PCB/tree/master/Shift%20Register%20Excersize)
 
 ## Reach Goals: 
 - Develop custom firmware to support I2C handles (somewhat out of scope)
