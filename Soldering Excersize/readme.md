@@ -1,4 +1,5 @@
-# Purpose
+# Soldering Practice
+## Purpose
 - First ever PCB (outside of work)
 - Use spare parts on hand
   - Use NPN transistor
@@ -9,7 +10,7 @@
   - 0805 Led & Resistor circuits
 - Soldering practice
 
-# Thoughts and reflections
+## Thoughts and reflections
 - Good soldering practice
 - Hard to re-use the board for other projects
   - next time include mounting holes
