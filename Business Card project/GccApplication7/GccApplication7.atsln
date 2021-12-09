@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GccApplication7", "GccApplication7\GccApplication7.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB5E9269-ECAF-4BE2-9445-874625E7F59F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\asmcommon.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\asmcommon.inc
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\Changelog.txt = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\Changelog.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\Changelog.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\Changelog.txt
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\checksize = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\checksize
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\CommercialLicense.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\CommercialLicense.txt
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\License.txt = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\License.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\License.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\License.txt
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\Makefile = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\Makefile
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\oddebug.c = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\oddebug.c
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\oddebug.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\oddebug.h
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\Readme.txt = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\Readme.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\Readme.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\Readme.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-ID-FAQ.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-ID-FAQ.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-IDs-for-free.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-IDs-for-free.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbconfig-prototype.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbconfig-prototype.h
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbconfig.h = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbconfig.h
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.c = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.c
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.h
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.asm = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.asm
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.S = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.S
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm12.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm12.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm128.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm128.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm15.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm15.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm16.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm16.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm165.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm165.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm18-crc.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm18-crc.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm20.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm20.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbportability.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbportability.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "usbdrv", "usbdrv", "{9FC6F270-32A2-4B45-9C5C-26AE573D88FF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\asmcommon.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\asmcommon.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\oddebug.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\oddebug.h
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-ID-FAQ.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-ID-FAQ.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-IDs-for-free.txt = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\USB-IDs-for-free.txt
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbconfig-prototype.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbconfig-prototype.h
+		..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbconfig.h = ..\..\..\..\Downloads\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbconfig.h
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.c = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.c
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrv.h
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.asm = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.asm
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.S = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm.S
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm12.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm12.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm128.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm128.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm15.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm15.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm16.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm16.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm165.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm165.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm18-crc.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm18-crc.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm20.inc = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbdrvasm20.inc
+		..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbportability.h = ..\..\..\..\Desktop\dekete later\HIDKeys.2012-12-08 (3).tar\HIDKeys.2012-12-08 (3)\HIDKeys.2012-12-08\usbdrv\usbportability.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FC6F270-32A2-4B45-9C5C-26AE573D88FF} = {EB5E9269-ECAF-4BE2-9445-874625E7F59F}
+	EndGlobalSection
+EndGlobal
