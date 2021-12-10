@@ -219,6 +219,7 @@ uchar   i, mask, x;
     for(i=0;i<5;i++){
         if((x & mask) == 0){
 	        switch(i){
+		        /*
 				case 0:
 				return 11;
 				case 1:
@@ -230,7 +231,7 @@ uchar   i, mask, x;
 				case 4:
 				return 15;
 			
-				/*
+			*/
 				case 0:
 				return 65;
 				case 1:
@@ -241,7 +242,6 @@ uchar   i, mask, x;
 				return 68;
 				case 4:
 				return 73;
-				*/
 			}
         }
         mask <<= 1;

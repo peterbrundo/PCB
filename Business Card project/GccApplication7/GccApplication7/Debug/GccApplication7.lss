@@ -15,19 +15,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
   5 .debug_aranges 000000a0  00000000  00000000  000009a0  2**3
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_info   0000124f  00000000  00000000  00000a40  2**0
+  6 .debug_info   00001255  00000000  00000000  00000a40  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 000009c3  00000000  00000000  00001c8f  2**0
+  7 .debug_abbrev 000009c3  00000000  00000000  00001c95  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   00001090  00000000  00000000  00002652  2**0
+  8 .debug_line   00001090  00000000  00000000  00002658  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  000000e4  00000000  00000000  000036e4  2**2
+  9 .debug_frame  000000e4  00000000  00000000  000036e8  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    00000699  00000000  00000000  000037c8  2**0
+ 10 .debug_str    0000069f  00000000  00000000  000037cc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    00000ab6  00000000  00000000  00003e61  2**0
+ 11 .debug_loc    00000ab6  00000000  00000000  00003e6b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 000000c8  00000000  00000000  00004917  2**0
+ 12 .debug_ranges 000000c8  00000000  00000000  00004921  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1285,27 +1285,28 @@ uchar   i, mask, x;
  4f2:	84 30       	cpi	r24, 0x04	; 4
  4f4:	39 f0       	breq	.+14     	; 0x504 <__stack+0xa5>
  4f6:	08 c0       	rjmp	.+16     	; 0x508 <__stack+0xa9>
-				case 0:
-				return 11;
- 4f8:	8b e0       	ldi	r24, 0x0B	; 11
- 4fa:	08 95       	ret
-				case 1:
-				return 12;
-				case 2:
-				return 13;
- 4fc:	8d e0       	ldi	r24, 0x0D	; 13
- 4fe:	08 95       	ret
-				case 3:
-				return 14;
- 500:	8e e0       	ldi	r24, 0x0E	; 14
- 502:	08 95       	ret
 				case 4:
 				return 15;
- 504:	8f e0       	ldi	r24, 0x0F	; 15
- 506:	08 95       	ret
+			
+			*/
+				case 0:
+				return 65;
+ 4f8:	81 e4       	ldi	r24, 0x41	; 65
+ 4fa:	08 95       	ret
+				case 1:
+				return 66;
+				case 2:
+				return 67;
+ 4fc:	83 e4       	ldi	r24, 0x43	; 67
+ 4fe:	08 95       	ret
+				case 3:
+				return 68;
+ 500:	84 e4       	ldi	r24, 0x44	; 68
+ 502:	08 95       	ret
 				case 4:
 				return 73;
-				*/
+ 504:	89 e4       	ldi	r24, 0x49	; 73
+ 506:	08 95       	ret
 			}
         }
         mask <<= 1;
@@ -1319,7 +1320,7 @@ uchar   i, mask, x;
  50a:	8f 5f       	subi	r24, 0xFF	; 255
  50c:	85 30       	cpi	r24, 0x05	; 5
  50e:	20 f3       	brcs	.-56     	; 0x4d8 <__stack+0x79>
-				*/
+				return 73;
 			}
         }
         mask <<= 1;
@@ -1343,13 +1344,13 @@ uchar   i, mask, x;
 		        return 60;
  518:	8c e3       	ldi	r24, 0x3C	; 60
  51a:	08 95       	ret
-        if((x & mask) == 0){
-	        switch(i){
+			
+			*/
 				case 0:
-				return 11;
+				return 65;
 				case 1:
-				return 12;
- 51c:	8c e0       	ldi	r24, 0x0C	; 12
+				return 66;
+ 51c:	82 e4       	ldi	r24, 0x42	; 66
 			}
         }
         mask <<= 1;
